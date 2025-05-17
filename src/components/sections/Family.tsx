@@ -57,17 +57,17 @@ const Family: React.FC = () => {
               <ul className="space-y-4">
                 <li className="flex items-center gap-3">
                   <div className="w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-700 flex-shrink-0">1</div>
-                  <p className="font-medium">Md. Mainuddin |Bell Captain @Blu Radisson</p>
+                  <p className="font-medium">Md. Mainuddin | Bell Captain @Blu Radisson</p>
                 </li>
                 
                 <li className="flex items-center gap-3">
                   <div className="w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-700 flex-shrink-0">2</div>
-                  <p className="font-medium">Md. Shahabuddin |HSE Officer in Qatar</p>
+                  <p className="font-medium">Md. Shahabuddin | HSE Officer in Qatar</p>
                 </li>
                 
                 <li className="flex items-center gap-3">
                   <div className="w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-700 flex-shrink-0">3</div>
-                  <p className="font-medium">Md. Azharuddin |Aalim-E-Deen)</p>
+                  <p className="font-medium">Md. Azharuddin | Aalim-E-Deen</p>
                 </li>
               </ul>
             </Card>
