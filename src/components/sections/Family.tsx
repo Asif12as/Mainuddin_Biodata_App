@@ -23,7 +23,7 @@ const Family: React.FC = () => {
                 
                 <div>
                   <p className="text-gray-500 text-sm">Father's Name</p>
-                  <p className="font-medium">Imam Hasan</p>
+                  <p className="font-medium">Imam Hassan</p>
                 </div>
                 
                 <div>
