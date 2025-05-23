@@ -66,7 +66,7 @@ const galleryImages: GalleryImage[] = [
   },
   {
     id: 10,
-    src: '/images/my-worklife4.jpg',
+    src: '/images/my-worklife44.jpg',
     alt: 'At workplace',
     category: 'work'
   },
