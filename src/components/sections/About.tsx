@@ -32,7 +32,7 @@ const About: React.FC = () => {
                   <Ruler className="text-emerald-700 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="text-gray-500 text-sm">Height / Complexion</h3>
-                    <p className="font-medium">5'4" / Fair</p>
+                    <p className="font-medium">5'5" / Fair</p>
                   </div>
                 </div>
                 

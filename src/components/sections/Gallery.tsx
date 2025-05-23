@@ -10,6 +10,19 @@ interface GalleryImage {
 
 // Using paths from the public folder - no imports needed
 const galleryImages: GalleryImage[] = [
+
+  {
+    id: 10,
+    src: '/images/my-worklife44.jpg',
+    alt: 'At workplace',
+    category: 'work'
+  },
+  {
+    id: 11,
+    src: '/images/my-worklife5.jpg',
+    alt: 'At workplace',
+    category: 'work'
+  },
   {
     id: 1,
     src: '/images/my-portrait1.jpg', // Path relative to public folder
@@ -61,18 +74,6 @@ const galleryImages: GalleryImage[] = [
   {
     id: 9,
     src: '/images/my-worklife3.jpg',
-    alt: 'At workplace',
-    category: 'work'
-  },
-  {
-    id: 10,
-    src: '/images/my-worklife44.jpg',
-    alt: 'At workplace',
-    category: 'work'
-  },
-  {
-    id: 11,
-    src: '/images/my-worklife5.jpg',
     alt: 'At workplace',
     category: 'work'
   }
