@@ -12,6 +12,39 @@ interface GalleryImage {
 const galleryImages: GalleryImage[] = [
 
   {
+    id: 15,
+    src: '/images/my-portrait7.jpg', // Path relative to public folder
+    alt: 'Professional portrait',
+    category: 'portrait'
+  },
+  {
+    id: 16,
+    src: '/images/my-portrait8.jpg', // Path relative to public folder
+    alt: 'Professional portrait',
+    category: 'portrait'
+  },
+
+  {
+    id: 12,
+    src: '/images/my-worklife6.jpg',
+    alt: 'At workplace',
+    category: 'work'
+  },
+  {
+    id: 13,
+    src: '/images/my-worklife7.jpg',
+    alt: 'At workplace',
+    category: 'work'
+  },
+  {
+    id: 14,
+    src: '/images/my-worklife8.jpg',
+    alt: 'At workplace',
+    category: 'work'
+  },
+
+
+  {
     id: 10,
     src: '/images/my-worklife44.jpg',
     alt: 'At workplace',
