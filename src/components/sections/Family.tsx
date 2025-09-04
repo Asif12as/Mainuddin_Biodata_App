@@ -18,12 +18,12 @@ const Family: React.FC = () => {
               <div className="space-y-4">
                 <div>
                   <p className="text-gray-500 text-sm">Grand Father's Name</p>
-                  <p className="font-medium">Late Mohammad Khalil Miyan</p>
+                  <p className="font-medium">(Late) Mohammad Khalid</p>
                 </div>
                 
                 <div>
                   <p className="text-gray-500 text-sm">Father's Name</p>
-                  <p className="font-medium">Imam Hassan</p>
+                  <p className="font-medium">Md imam Hasan</p>
                 </div>
                 
                 <div>
@@ -57,7 +57,7 @@ const Family: React.FC = () => {
               <ul className="space-y-4">
                 <li className="flex items-center gap-3">
                   <div className="w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-700 flex-shrink-0">1</div>
-                  <p className="font-medium">Md. Mainuddin | Supervisor @Blu Radisson</p>
+                  <p className="font-medium">Sajroddin Ahmad | Transport Technician</p>
                 </li>
                 
                 <li className="flex items-center gap-3">
@@ -68,6 +68,11 @@ const Family: React.FC = () => {
                 <li className="flex items-center gap-3">
                   <div className="w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-700 flex-shrink-0">3</div>
                   <p className="font-medium">Md. Azharuddin | Aalim-E-Deen</p>
+                </li>
+                
+                <li className="flex items-center gap-3">
+                  <div className="w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-700 flex-shrink-0">4</div>
+                  <p className="font-medium">Brother (Unmarried)</p>
                 </li>
               </ul>
             </Card>

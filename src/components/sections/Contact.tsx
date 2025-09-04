@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-medium text-gray-700">Personal Phone (Only Whatsapp)</h4>
                   <p className="text-emerald-700 mt-1">
-                    <a href="tel:+919123132225" className="hover:underline">+91 9123132225</a>
+                    <span className="text-emerald-700">Contact Number Available</span>
                   </p>
                 </div>
               </div>
@@ -46,7 +46,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-medium text-gray-700">Email Address</h4>
                   <p className="text-emerald-700 mt-1">
-                    <a href="mailto:Ssajroddin@gmail.com" className="hover:underline">Ssajroddin@gmail.com</a>
+                    <span className="text-emerald-700">Contact Email Available</span>
                   </p>
                 </div>
               </div>
@@ -58,9 +58,8 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-medium text-gray-700">Address</h4>
                   <p className="text-gray-600 mt-1">
-                    At.- Fataha<br />
-                    Po + Ps. - Gopalganj<br />
-                    Distt. - Gopalganj (Bihar)
+                    At- Fathan Post +District =Gopalaganj<br />
+                    Bihar Pin Code ( 841428)
                   </p>
                 </div>
               </div>

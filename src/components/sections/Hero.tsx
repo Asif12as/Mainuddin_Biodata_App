@@ -17,11 +17,11 @@ const Hero: React.FC = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-emerald-800">
-              Sajroddin Ahmad
+              Mohammad Mainuddin
             </h1>
             
             <p className="text-xl text-gray-600">
-              Transport Technician – Heavy Machinery (GCC, Gulf)
+              Supervisor
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">

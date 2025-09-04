@@ -16,15 +16,40 @@ const About: React.FC = () => {
                   <User className="text-emerald-700 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="text-gray-500 text-sm">Full Name</h3>
-                    <p className="font-medium">Sajroddin Ahmad</p>
+                    <p className="font-medium">Mohammad Mainuddin</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-3">
                   <CalendarDays className="text-emerald-700 mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="text-gray-500 text-sm">Date of Birth</h3>
-                    <p className="font-medium">02/08/1998</p>
+                    <h3 className="text-gray-500 text-sm">Date of Birth / Age</h3>
+                    <p className="font-medium">15 May 1991 / 33 years</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <div className="w-6 h-6 flex items-center justify-center text-emerald-700 mt-1 flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                      <circle cx="12" cy="7" r="4"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-gray-500 text-sm">Marital Status</h3>
+                    <p className="font-medium">Unmarried</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <div className="w-6 h-6 flex items-center justify-center text-emerald-700 mt-1 flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-gray-500 text-sm">Weight</h3>
+                    <p className="font-medium">75 Kgs</p>
                   </div>
                 </div>
                 
@@ -32,7 +57,7 @@ const About: React.FC = () => {
                   <Ruler className="text-emerald-700 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="text-gray-500 text-sm">Height / Complexion</h3>
-                    <p className="font-medium">5'5" / Fair</p>
+                    <p className="font-medium">5'7" / White</p>
                   </div>
                 </div>
                 
@@ -53,7 +78,7 @@ const About: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-gray-500 text-sm">Religion</h3>
-                    <p className="font-medium">Muslim (Sheikh - Siddique)</p>
+                    <p className="font-medium">Muslim (Sheikh)</p>
                   </div>
                 </div>
               </div>
@@ -70,8 +95,34 @@ const About: React.FC = () => {
                 <div className="flex items-start gap-3">
                   <BookOpen className="text-emerald-700 mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="text-gray-500 text-sm">Qualification</h3>
-                    <p className="font-medium">Intermediate Passed</p>
+                    <h3 className="text-gray-500 text-sm">Education</h3>
+                    <p className="font-medium">12th Intermediate</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <div className="w-6 h-6 flex items-center justify-center text-emerald-700 mt-1 flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                      <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-gray-500 text-sm">Technical Qualification</h3>
+                    <p className="font-medium">Hotel Management</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <div className="w-6 h-6 flex items-center justify-center text-emerald-700 mt-1 flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"/>
+                      <path d="M12 6v6l4 2"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-gray-500 text-sm">Blood Group</h3>
+                    <p className="font-medium">O Positive</p>
                   </div>
                 </div>
                 
@@ -93,7 +144,7 @@ const About: React.FC = () => {
                   <Briefcase className="text-emerald-700 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="text-gray-500 text-sm">Profession</h3>
-                    <p className="font-medium">Transport Technician – Heavy Machinery (GCC, Gulf)</p>
+                    <p className="font-medium">Supervisor - Hotel Management</p>
                   </div>
                 </div>
               </div>
