@@ -122,7 +122,7 @@ const About: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-orange-700 text-sm font-semibold uppercase tracking-wide">Education</h3>
-                    <p className="font-bold text-gray-800 text-lg">🎓 Graduation B.S.C</p>
+                    <p className="font-bold text-gray-800 text-lg">🎓 Graduation B.Sc</p>
                   </div>
                 </div>
                 
