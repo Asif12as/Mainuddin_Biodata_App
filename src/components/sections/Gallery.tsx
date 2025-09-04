@@ -10,43 +10,66 @@ interface GalleryImage {
 
 // Using paths from the public folder - no imports needed
 const galleryImages: GalleryImage[] = [
-
+  // Priority images first (worklife1,2 then portrait1,2)
   {
-    id: 15,
-    src: '/images/my-portrait7.jpg', // Path relative to public folder
+    id: 1,
+    src: '/images/my-worklife1.jpg',
+    alt: 'At workplace',
+    category: 'work'
+  },
+  {
+    id: 2,
+    src: '/images/my-worklife2.jpg',
+    alt: 'At workplace',
+    category: 'work'
+  },
+  {
+    id: 3,
+    src: '/images/my-portrait1.jpg',
     alt: 'Professional portrait',
     category: 'portrait'
   },
   {
-    id: 16,
-    src: '/images/my-portrait8.jpg', // Path relative to public folder
+    id: 4,
+    src: '/images/my-portrait2.jpg',
     alt: 'Professional portrait',
     category: 'portrait'
   },
-
+  // Additional portrait images
   {
-    id: 12,
-    src: '/images/my-worklife6.jpg',
+    id: 5,
+    src: '/images/my-portrait3.jpg',
+    alt: 'Professional portrait',
+    category: 'portrait'
+  },
+  {
+    id: 6,
+    src: '/images/my-portrait4.jpg',
+    alt: 'Professional portrait',
+    category: 'portrait'
+  },
+  {
+    id: 7,
+    src: '/images/my-portrait5.jpg',
+    alt: 'Professional portrait',
+    category: 'portrait'
+  },
+  {
+    id: 8,
+    src: '/images/my-portrait6.jpg',
+    alt: 'Professional portrait',
+    category: 'portrait'
+  },
+  // Additional work life images
+  {
+    id: 9,
+    src: '/images/my-worklife3.jpg',
     alt: 'At workplace',
     category: 'work'
   },
-  {
-    id: 13,
-    src: '/images/my-worklife7.jpg',
-    alt: 'At workplace',
-    category: 'work'
-  },
-  {
-    id: 14,
-    src: '/images/my-worklife8.jpg',
-    alt: 'At workplace',
-    category: 'work'
-  },
-
-
   {
     id: 10,
-    src: '/images/my-worklife44.jpg',
+    src: '/images/my-worklife4.jpg',
     alt: 'At workplace',
     category: 'work'
   },
@@ -57,60 +80,11 @@ const galleryImages: GalleryImage[] = [
     category: 'work'
   },
   {
-    id: 1,
-    src: '/images/my-portrait1.jpg', // Path relative to public folder
-    alt: 'Professional portrait',
-    category: 'portrait'
-  },
-  {
-    id: 2,
-    src: '/images/my-portrait2.jpg',
-    alt: 'Casual portrait',
-    category: 'portrait'
-  },
-  {
-    id: 3,
-    src: '/images/my-portrait3.jpg',
-    alt: 'Casual portrait',
-    category: 'portrait'
-  },
-  {
-    id: 4,
-    src: '/images/my-portrait4.jpg',
-    alt: 'Casual portrait',
-    category: 'portrait'
-  },
-  {
-    id: 5,
-    src: '/images/my-portrait5.jpg',
-    alt: 'Casual portrait',
-    category: 'portrait'
-  },
-  {
-    id: 6,
-    src: '/images/my-portrait6.jpg',
-    alt: 'Casual portrait',
-    category: 'portrait'
-  },
-  {
-    id: 7,
-    src: '/images/my-worklife1.jpg',
-    alt: 'Working with machinery',
-    category: 'work'
-  },
-  {
-    id: 8,
-    src: '/images/my-worklife2.jpg',
-    alt: 'At workplace',
-    category: 'work'
-  },
-  {
-    id: 9,
-    src: '/images/my-worklife3.jpg',
+    id: 12,
+    src: '/images/my-worklife6.jpg',
     alt: 'At workplace',
     category: 'work'
   }
-  
 ];
 
 const Gallery: React.FC = () => {
@@ -171,12 +145,24 @@ const Gallery: React.FC = () => {
             <div 
               key={image.id}
               className="group relative overflow-hidden rounded-lg cursor-pointer shadow-md transition-transform duration-300 hover:scale-[1.02]"
+              style={{ aspectRatio: '1/1' }}
               onClick={() => setSelectedImage(image)}
             >
               <img 
                 src={image.src} 
                 alt={image.alt}
-                className="w-full h-64 object-cover"
+                className="w-full h-full object-cover"
+                loading="lazy"
+                onLoad={() => console.log('Image loaded successfully:', image.src)}
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  console.error('Failed to load image:', image.src);
+                  target.style.backgroundColor = '#f3f4f6';
+                  target.style.display = 'flex';
+                  target.style.alignItems = 'center';
+                  target.style.justifyContent = 'center';
+                  target.innerHTML = '<div style="color: #9ca3af; font-size: 14px; text-align: center;">Image<br/>Not Found</div>';
+                }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                 <div className="p-4 w-full">
