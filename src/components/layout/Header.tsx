@@ -25,7 +25,7 @@ const Header: React.FC = () => {
     <header className="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-sm z-50 shadow-sm">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
-          <a href="#" className="text-emerald-800 font-semibold text-xl">Sajroddin Ahmad</a>
+          <a href="#" className="text-emerald-800 font-semibold text-xl">Mohammad Mainuddin</a>
         </div>
 
         {/* Desktop Navigation */}
