@@ -131,17 +131,17 @@ const Family: React.FC = () => {
                 
                 <li className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-white to-rose-50 rounded-lg sm:rounded-xl shadow-lg border border-rose-100 hover:shadow-xl transition-all duration-300">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-rose-500 to-red-500 rounded-full flex items-center justify-center text-white font-bold text-sm sm:text-base lg:text-lg shadow-lg flex-shrink-0">2</div>
-                  <p className="font-bold text-gray-800 text-sm sm:text-base lg:text-lg">💖 Rehana Khatoon (Married)</p>
+                  <p className="font-bold text-gray-800 text-sm sm:text-base lg:text-lg">👩 Rehana Khatoon (Married)</p>
                 </li>
                 
                 <li className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-white to-purple-50 rounded-lg sm:rounded-xl shadow-lg border border-purple-100 hover:shadow-xl transition-all duration-300">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-purple-500 to-violet-500 rounded-full flex items-center justify-center text-white font-bold text-sm sm:text-base lg:text-lg shadow-lg flex-shrink-0">3</div>
-                  <p className="font-bold text-gray-800 text-sm sm:text-base lg:text-lg">💜 Sabra Khatoon (Married)</p>
+                  <p className="font-bold text-gray-800 text-sm sm:text-base lg:text-lg">👩 Sabra Khatoon (Married)</p>
                 </li>
                 
                 <li className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-white to-fuchsia-50 rounded-lg sm:rounded-xl shadow-lg border border-fuchsia-100 hover:shadow-xl transition-all duration-300">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-fuchsia-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-sm sm:text-base lg:text-lg shadow-lg flex-shrink-0">4</div>
-                  <p className="font-bold text-gray-800 text-sm sm:text-base lg:text-lg">🌸 Ruhi Khatoon (Married)</p>
+                  <p className="font-bold text-gray-800 text-sm sm:text-base lg:text-lg">👩 Ruhi Khatoon (Married)</p>
                 </li>
               </ul>
             </div>

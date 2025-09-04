@@ -44,7 +44,7 @@ const About: React.FC = () => {
                   </div>
                   <div className="min-w-0">
                     <h3 className="text-teal-700 text-xs sm:text-sm font-semibold uppercase tracking-wide">Date of Birth / Age</h3>
-                    <p className="font-bold text-gray-800 text-sm sm:text-base lg:text-lg">15 May 1991 / 33 years</p>
+                    <p className="font-bold text-gray-800 text-sm sm:text-base lg:text-lg">15 May 1993 / 31 years</p>
                   </div>
                 </div>
                 
@@ -122,7 +122,7 @@ const About: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-orange-700 text-sm font-semibold uppercase tracking-wide">Education</h3>
-                    <p className="font-bold text-gray-800 text-lg">🎓 12th Intermediate</p>
+                    <p className="font-bold text-gray-800 text-lg">🎓 Graduation B.S.C</p>
                   </div>
                 </div>
                 
