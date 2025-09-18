@@ -88,7 +88,7 @@ const Family: React.FC = () => {
               <ul className="space-y-3 sm:space-y-4 lg:space-y-5 relative z-10">
                 <li className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-white to-green-50 rounded-lg sm:rounded-xl shadow-lg border border-green-100 hover:shadow-xl transition-all duration-300">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-sm sm:text-base lg:text-lg shadow-lg flex-shrink-0">1</div>
-                  <p className="font-bold text-gray-800 text-sm sm:text-base lg:text-lg">👨 Sajroddin Ahmad | Brother</p>
+                  <p className="font-bold text-gray-800 text-sm sm:text-base lg:text-lg">👨 Sajroddin Ahmad | Heavy driver GCC</p>
                 </li>
                 
                 <li className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-white to-indigo-50 rounded-lg sm:rounded-xl shadow-lg border border-indigo-100 hover:shadow-xl transition-all duration-300">
